@@ -26,14 +26,9 @@ html {
 
 body {
  margin: 0;
- font-family: Roboto, lato, Helvetica, Arial,Verdana, sans-serif; 
  line-height: 1.4; 
  letter-spacing: 0.03em; 
  background-color: var(--extra-light-gray); 
-}
-
-.fonts-failed body{
-	 font-family: Roboto, lato, Helvetica, Arial,Verdana, sans-serif; 
 }
 
 
@@ -187,7 +182,6 @@ p {
 } 
 
 h1, h2, h3, h4 {
-  font-family: Roboto, lato, Helvetica, Arial,Verdana, sans-serif; 
  letter-spacing: 0.03em;
  text-transform: uppercase;
 }
@@ -200,14 +194,7 @@ h1, h2, h3, h4 {
 .hero__inner h2{
 	transition: all 3s ease-out;
 }
-	
 
-.fonts-failed h1,
-.fonts-failed h2,
-.fonts-failed h3,
-.fonts-failed h4 {
- font-family: Roboto, lato, Helvetica, Arial,Verdana, sans-serif; 
-}
 
 html, body{
 	height: 100%;
@@ -258,9 +245,6 @@ text-transform: uppercase;
  max-width: 1080px;
 } 
 
-.fonts-failed{
-  font-family: Roboto, lato, Helvetica, Arial,Verdana, sans-serif; 
-}
 
 .home-link{
 	color: var(--text-color);
@@ -276,10 +260,6 @@ text-transform: uppercase;
 	display: flex;
 	list-style-type: none;
 	margin: 0;
-}
-
-.top-nav > li + li {
-
 }
 
 .top-nav a {
@@ -722,7 +702,6 @@ form input{
 
 form textarea{
 	resize: none;
-	font-family: Arial, Helvetica, sans-serif;
 	margin: 0.6em;
 	padding: 00.625em;
 	border: 2px solid var(--brand-green);
@@ -759,7 +738,6 @@ form textarea{
 	text-align: center;
 	color: var(--white);
 	font-weight: bold;
-	font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 1.9rem;
 }
 
